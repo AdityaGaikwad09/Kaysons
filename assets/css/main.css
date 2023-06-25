@@ -12,7 +12,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-secondary: #fffefe;
 }
 
 /* Smooth scroll behavior */
@@ -310,7 +310,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: white;
 }
 
 .sticked-header-offset {
@@ -479,7 +479,7 @@ section {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     bottom: 0;
     transition: 1.0s;
@@ -490,7 +490,7 @@ section {
   .navbar ul {
     position: absolute;
     inset: 0;
-    padding: 50px 0 10px 0;
+    padding: 90px 0 20px 0;
     margin: 0;
     background: rgba(0, 131, 116, 0.9);
     overflow-y: auto;
@@ -1254,6 +1254,7 @@ section {
 .faq .content h3 {
   font-weight: 400;
   font-size: 34px;
+  color: white;
 }
 
 .faq .content h4 {
